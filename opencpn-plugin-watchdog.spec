@@ -22,7 +22,7 @@ alerting the user about the changing conditions around the boat.  Also
 implements an improved anchor alarm.
 
 %prep
-%autosetup -n %{name}-%{commit}
+%autosetup -n watchdog_pi-%{commit}
 
 #sed -i -e s'/SET(PREFIX_LIB lib)/SET(PREFIX_LIB %{_lib})/' cmake/PluginInstall.cmake
 
